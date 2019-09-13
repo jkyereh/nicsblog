@@ -4,27 +4,24 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>blockchain</title>
+    <title>NICS Media</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
     <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="assets/css/slider.css">
 </head>
 
 <body>
-    <div></div>
-    <div>
-        <div class="header-blue">
-            <div></div>
-            <div></div>
-            <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
-                    <div class="container"><a class="navbar-brand" href="index.html">Blockchain Society Ghana</a>
+    <div class="header-blue">
+    <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
+                    <div class="container"><a class="navbar-brand" href="index.html">NICS Media</a>
                         <div
                             class="collapse navbar-collapse" id="navcol-1">
                             <ul class="nav navbar-nav">
                                 <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
-                                <li class="nav-item" role="presentation"><a class="nav-link active" href="About.html">About</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link active" href="entertainment.html">Entertainment</a></li>
                                 <li class="nav-item" role="presentation"><a class="nav-link" href="services.html">Services</a></li>
                                 <li class="nav-item" role="presentation"><a class="nav-link" href="contact.html">Contact</a></li>
                                 <li class="nav-item" role="presentation"><a class="nav-link" href="blog.html">Blog</a></li>
@@ -33,65 +30,292 @@
                     </div>
             </div>
             </nav>
-            <div class="container hero">
-                <div class="row">
-                    <div class="col-12 col-lg-12 col-xl-5 offset-lg-0 offset-xl-1">
-                        <h1>The revolution is here.</h1>
-                        <p>Mauris egestas tellus non ex condimentum, ac ullamcorper sapien dictum. Nam consequat neque quis sapien viverra convallis. In non tempus lorem. </p><button class="btn btn-light btn-lg action-button" type="button">Learn More</button></div>
+            <header>
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                      </ol>
+                      <div class="carousel-inner" role="listbox">
+                        <!-- Slide One - Set the background image for this slide in the line below -->
+                        <div class="carousel-item active" style="background-image: url('https://www.hawaiinewsnow.com/resizer/BqLyNgGvrjBpu8XlXrY8m45ibEU=/1200x600/d1acid63ghtydj.cloudfront.net/09-09-2019/t_5f85cabe32b94ce0a05fb10199d24e6b_name_file_1280x720_2000_v3_1_.jpg')">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h3 class="display-4">First Slide</h3>
+                            <p class="lead">This is a description for the first slide.</p>
+                          </div>
+                        </div>
+                        <!-- Slide Two - Set the background image for this slide in the line below -->
+                        <div class="carousel-item" style="background-image: url('data:image/jpeg;base64,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')">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h3 class="display-4">Second Slide</h3>
+                            <p class="lead">This is a description for the second slide.</p>
+                          </div>
+                        </div>
+                        <!-- Slide Three - Set the background image for this slide in the line below -->
+                        <div class="carousel-item" style="background-image: url('https://source.unsplash.com/O7fzqFEfLlo/1920x1080')">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h3 class="display-4">Third Slide</h3>
+                            <p class="lead">This is a description for the third slide.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                    </div>
+                  </header>
                 </div>
-            </div>
-        </div>
-    </div>
+              <!--End of slider-->
+
+    <!--first blog section-->
+
     <div class="highlight-phone">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-lg-12">
-                    <div class="intro">
-                        <h2>Highlight</h2>
-                        <p>Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. Aliqua sed justo ligula.</p><a class="btn btn-primary" role="button" href="#">Action Button</a></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="jumbotron card card-image" style="background-image: url();">
+                            <div class="text-white text-center py-5 px-4">
+                              <div>
+                                <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Trending</strong></h2>
+                                <p class="mx-5 mb-5 text-white font-bold">All the fun and latest tweets in town about your favourite celebs and entertainment shows
+                                </p>
+                                <a class="btn btn-outline-white btn-md" href="entertaiment.html"> More</a>
+                              </div>
+                            </div>
+                          </div>
+                          <hr>
+                          <!--End of main pic-->
+                        <div class="row">
+                        <div class="col-md">
+                            <h3>This is just a test</h3>
+                            <p>So as we were saying, this is jux a test suite, the real deal comes on later.
+                                So as we were saying, this is jux a test suite, the real deal comes on later.
+                                So as we were saying, this is jux a test suite, the real deal comes on later
+                            </p>
+                        </div>
+                        <div class="col-md">
+                            <h3>Another Test here</h3>
+                            <p>Exactly, you guessed right. this is also another test...lol.
+                                So as we were saying, this is jux a test suite, the real deal comes on later.
+                                So as we were saying, this is jux a test suite, the real deal comes on later
+                            </p>
+                        </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md">
+                                <h3>This is just a test</h3>
+                                <p>So as we were saying, this is jux a test suite, the real deal comes on later
+                                    So as we were saying, this is jux a test suite, the real deal comes on later
+                                    So as we were saying, this is jux a test suite, the real deal comes on later
+                                </p>
+                            </div>
+                            <div class="col-md">
+                                <h3>Another Test here</h3>
+                                <p>Exactly, you guessed right. this is also another test...lol
+                                    So as we were saying, this is jux a test suite, the real deal comes on later
+                                    So as we were saying, this is jux a test suite, the real deal comes on later
+                                </p>
+                            </div>
+                            </div>
+                        </div>
+                        <!--Right side news-->
+                    <div class="col-md-4">
+                        <div class="intro"></div>
+                            <a href="">
+                            <img class="align-self-start" src="assets/img/bit.jpeg" style="width: 100px" height="100px" >
+                            <h3 style=>Bitcoin on the run</h3>
+                            </a>
+                            <p>A blockchain, originally block chain, is a growing list of records, called blocks, 
+                                that are linked using cryptography. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data. 
+                                By design, a blockchain is resistant to modification of the data</p>
+                                <hr>
+                                
+                                <a href="">
+                                    <img src="assets/img/wassce.jpg" style="width: 100px" height="100px">
+                                    <h3>WASSCE results out</h3>
+                                </a>
+                            <p>Blockchain technology is the technology of the future and provides a trust-less platform without the need for a middle man; security through cryptography and time stamps;
+                                 and is decentralized which prevents a single point of failure.</p>
+                                 <p></p>
+                                 <hr>
+                            <a href="">
+                                <img src="assets/img/robert.jpg" style="width: 100px" height="100px">
+                                <h3>President Mugabe dead</h3>
+                            </a>     
+                            <p>Earlier this morning, reliable sources confirmed that the immediate past president of zimbabwe died last night 
+                                while receiving treatment in Japan. This news can however not be verified as at now....
+                            </p>
+                    </div>
                 </div>
             </div>
+            <hr>
         </div>
-    </div>
-    <div class="brands"><a href="#"> <img src="assets/img/instacart.png"><img src="assets/img/kickstarter.png"><img src="assets/img/lyft.png"><img src="assets/img/shopify.png"><img src="assets/img/pinterest.png"><img src="assets/img/twitter.png"></a><a href="#"> <img src="assets/img/instacart.png"><img src="assets/img/kickstarter.png"><img src="assets/img/lyft.png"><img src="assets/img/shopify.png"><img src="assets/img/pinterest.png"><img src="assets/img/twitter.png"></a>
-        <a
-            href="#"> <img src="assets/img/instacart.png"><img src="assets/img/kickstarter.png"><img src="assets/img/lyft.png"><img src="assets/img/shopify.png"><img src="assets/img/pinterest.png"><img src="assets/img/twitter.png"></a><a href="#"> <img src="assets/img/instacart.png"><img src="assets/img/kickstarter.png"><img src="assets/img/lyft.png"><img src="assets/img/shopify.png"><img src="assets/img/pinterest.png"><img src="assets/img/twitter.png"></a></div>
-    <div></div>
-    <div></div>
-    <div class="team-boxed">
-        <div class="container">
-            <div class="intro">
-                <h2 class="text-center">Team </h2>
-                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.</p>
+        <!--End of first blog section-->
+        <!--News column-->
+
+<div class="highlight-phone">
+<div class="container">
+        <div class="card-columns">
+                <div class="card">
+                  <img class="card-img-top" src="assets/img/fb.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title that wraps to a new line</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+                <div class="card p-3">
+                  <blockquote class="blockquote mb-0 card-body">
+                    <p>I was confused when I got to the Gob3 joint, I didn't know how to configure it.</p>
+                    <footer class="blockquote-footer">
+                      <small class="text-muted">
+                        Muhaisin Amin <cite title="Source Title">NICS Media</cite>
+                      </small>
+                    </footer>
+                  </blockquote>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="assets/img/club.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card bg-primary text-white text-center p-3">
+                  <blockquote class="blockquote mb-0">
+                    <p>Shatta Wale just touched my waist, we didn't kiss</p>
+                    <footer class="blockquote-footer">
+                      <small>
+                        Afia Odo <cite title="Source Title">Ghana Web</cite>
+                      </small>
+                    </footer>
+                  </blockquote>
+                </div>
+                <div class="card text-center">
+                  <div class="card-body">
+                    <h5 class="card-title">Akua Donkor Resigns</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img" src="assets/img/bit.jpeg" alt="Card image">
+                </div>
+                <div class="card p-3 text-right">
+                  <blockquote class="blockquote mb-0">
+                    <p>My administration has done a lot more than the whole of africa combined.</p>
+                    <footer class="blockquote-footer">
+                      <small class="text-muted">
+                        Prez Buhari <cite title="Source Title">Pulse nigeria</cite>
+                      </small>
+                    </footer>
+                  </blockquote>
+                </div>
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Maham jabs The President</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="row people">
-                <div class="col-md-6 col-lg-4 item">
-                    <div class="box"><img class="rounded-circle" src="assets/img/1.jpg">
-                        <h3 class="name">Ben Johnson</h3>
-                        <p class="title">Musician</p>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
-                        <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 item">
-                    <div class="box"><img class="rounded-circle" src="assets/img/2.jpg">
-                        <h3 class="name">Emily Clark</h3>
-                        <p class="title">Artist</p>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
-                        <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 item">
-                    <div class="box"><img class="rounded-circle" src="assets/img/3.jpg">
-                        <h3 class="name">Carl Kent</h3>
-                        <p class="title">Stylist</p>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
-                        <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+            <hr>
+            </div>
+            <!--End of news-->
+    <!--Next blog-->
+    <div class="highlight-phone">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="jumbotron card card-image" style="background-image: url();">
+                            <div class="text-white text-center py-5 px-4">
+                              <div>
+                                <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Trending</strong></h2>
+                                <p class="mx-5 mb-5 text-white font-bold">All the fun and latest tweets in town about your favourite celebs and entertainment shows
+                                </p>
+                                <a class="btn btn-outline-white btn-md" href="entertaiment.html"> More</a>
+                              </div>
+                            </div>
+                          </div>
+                          <hr>
+                          <!--End of main pic-->
+                        <div class="row">
+                        <div class="col-md">
+                            <h3>This is just a test</h3>
+                            <p>So as we were saying, this is jux a test suite, the real deal comes on later.
+                                So as we were saying, this is jux a test suite, the real deal comes on later.
+                                So as we were saying, this is jux a test suite, the real deal comes on later
+                            </p>
+                        </div>
+                        <div class="col-md">
+                            <h3>Another Test here</h3>
+                            <p>Exactly, you guessed right. this is also another test...lol.
+                                So as we were saying, this is jux a test suite, the real deal comes on later.
+                                So as we were saying, this is jux a test suite, the real deal comes on later
+                            </p>
+                        </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md">
+                                <h3>This is just a test</h3>
+                                <p>So as we were saying, this is jux a test suite, the real deal comes on later
+                                    So as we were saying, this is jux a test suite, the real deal comes on later
+                                    So as we were saying, this is jux a test suite, the real deal comes on later
+                                </p>
+                            </div>
+                            <div class="col-md">
+                                <h3>Another Test here</h3>
+                                <p>Exactly, you guessed right. this is also another test...lol
+                                    So as we were saying, this is jux a test suite, the real deal comes on later
+                                    So as we were saying, this is jux a test suite, the real deal comes on later
+                                </p>
+                            </div>
+                            </div>
+                        </div>
+                        <!--Right side news-->
+                    <div class="col-md-4">
+                        <div class="intro"></div>
+                            <a href="">
+                            <img class="align-self-start" src="assets/img/bit.jpeg" style="width: 100px" height="100px" >
+                            <h3 style=>Bitcoin on the run</h3>
+                            </a>
+                            <p>A blockchain, originally block chain, is a growing list of records, called blocks, 
+                                that are linked using cryptography. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data. 
+                                By design, a blockchain is resistant to modification of the data</p>
+                                <hr>
+                                
+                                <a href="">
+                                    <img src="assets/img/wassce.jpg" style="width: 100px" height="100px">
+                                    <h3>WASSCE results out</h3>
+                                </a>
+                            <p>Blockchain technology is the technology of the future and provides a trust-less platform without the need for a middle man; security through cryptography and time stamps;
+                                 and is decentralized which prevents a single point of failure.</p>
+                                 <p></p>
+                                 <hr>
+                            <a href="">
+                                <img src="assets/img/robert.jpg" style="width: 100px" height="100px">
+                                <h3>President Mugabe dead</h3>
+                            </a>     
+                            <p>Earlier this morning, reliable sources confirmed that the immediate past president of zimbabwe died last night 
+                                while receiving treatment in Japan. This news can however not be verified as at now....
+                            </p>
                     </div>
                 </div>
             </div>
+            <hr>
         </div>
-    </div>
+    
+        
+
     <div class="footer-clean">
         <aside></aside>
         <footer>
